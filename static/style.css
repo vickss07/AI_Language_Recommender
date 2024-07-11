@@ -1,0 +1,93 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header styles */
+h1 {
+    color: #ffffff; /* Blue color */
+    margin-top: 20px;
+}
+
+/* Form container styles */
+form {
+    margin: 20px auto;
+    max-width: 400px;
+    background-color: #FFFFFF; /* White background */
+    padding: 20px;
+    border: 1px solid #DADADA; /* Light gray border */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Form label styles */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Select styles */
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #DADADA; /* Light gray border */
+    border-radius: 5px;
+}
+
+/* Submit button styles */
+button {
+    background-color: #007BFF; /* Blue color */
+    color: #FFFFFF; /* White text color */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056B3; /* Darker blue on hover */
+}
+
+/* Recommendations container styles */
+#recommendations {
+    margin-top: 20px;
+    text-align: left;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #FFFFFF; /* White background */
+    border: 1px solid #DADADA; /* Light gray border */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding-right: 20px; /* Add right padding */
+}
+
+/* Recommended language list styles */
+#language-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#language-list li {
+    margin: 10px 0;
+    padding: 5px;
+    background-color: #F9F9F9; /* Light gray background for each language item */
+    border: 1px solid #DADADA; /* Light gray border */
+    border-radius: 5px;
+}
+
+/* Different background colors for recommended languages */
+#language-list li:nth-child(odd) {
+    background-color: #EFEFFF; /* Light blue background for odd-numbered items */
+}
+
+#language-list li:nth-child(even) {
+    background-color: #FFEFEF; /* Light pink background for even-numbered items */
+}
+
+

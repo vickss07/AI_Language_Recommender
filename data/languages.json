@@ -1,0 +1,205 @@
+[
+    {
+        "name": "Python",
+        "description": "Python is a versatile and easy-to-learn programming language often used for web development, data analysis, and more.",
+        "projectType": "web",
+        "experienceLevel": "beginner",
+        "link": "http://www.python.org"
+    },
+    {
+        "name": "JavaScript",
+        "description": "JavaScript is a widely-used language for web development, enabling dynamic and interactive web applications . ",
+        "projectType": "web",
+        "experienceLevel": "beginner",
+        "link": "http://www.javascript.com"
+    },
+    {
+        "name": "Java",
+        "description": "Java is a popular, platform-independent language often used for building desktop and mobile applications.",
+        "projectType": "mobile",
+        "experienceLevel": "beginner",
+        "link": "http://www.java.com"
+    },
+    {
+        "name": "C++",
+        "description": "C++ is a powerful, high-performance language used in systems programming, game development, and more.",
+        "projectType": "system",
+        "experienceLevel": "beginner",
+        "link": "http://www.cplusplus.com"
+    },
+    {
+        "name": "Ruby",
+        "description": "Ruby is known for its elegant syntax and is commonly used for web development with the Ruby on Rails framework.",
+        "projectType": "web",
+        "experienceLevel": "beginner",
+        "link": "http://www.ruby-lang.org"
+    },
+    {
+        "name": "Swift",
+        "description": "Swift is Apple's programming language for iOS and macOS app development, known for its speed and safety features.",
+        "projectType": "mobile",
+        "experienceLevel": "beginner",
+        "link": "http://www.swift.org"
+    },
+    {
+        "name": "PHP",
+        "description": "PHP is a server-side scripting language widely used for web development.",
+        "projectType": "web",
+        "experienceLevel": "beginner",
+        "link": "http://www.php.net"
+    },
+    {
+        "name": "C#",
+        "description": "C# is a language developed by Microsoft, used for Windows application development and game development with Unity.",
+        "projectType": "desktop",
+        "experienceLevel": "beginner",
+        "link": "http://www.microsoft.com/csharp"
+    },
+    {
+        "name": "Go",
+        "description": "Go, also known as Golang, is a statically typed language designed for simplicity and efficiency.",
+        "projectType": "web",
+        "experienceLevel": "beginner",
+        "link": "http://golang.org"
+    },
+    {
+        "name": "Rust",
+        "description": "Rust is a systems programming language known for its safety features and performance.",
+        "projectType": "system",
+        "experienceLevel": "beginner",
+        "link": "http://www.rust-lang.org"
+    },
+    {
+        "name": "Scala",
+        "description": "Scala is a functional and object-oriented language that runs on the Java Virtual Machine (JVM).",
+        "projectType": "web",
+        "experienceLevel": "beginner",
+        "link": "http://www.scala-lang.org"
+    },
+    {
+        "name": "Kotlin",
+        "description": "Kotlin is a modern, statically typed language that's officially supported for Android app development.",
+        "projectType": "mobile",
+        "experienceLevel": "beginner",
+        "link": "http://kotlinlang.org"
+    },
+    {
+        "name": "Perl",
+        "description": "Perl is a flexible, text-processing language used for various purposes, including web development and system administration.",
+        "projectType": "web",
+        "experienceLevel": "beginner",
+        "link": "http://www.perl.org"
+    },
+    {
+        "name": "Haskell",
+        "description": "Haskell is a purely functional language known for its strong type system and expressive syntax.",
+        "projectType": "data",
+        "experienceLevel": "beginner",
+        "link": "http://www.haskell.org"
+    },
+    {
+        "name": "TypeScript",
+        "description": "TypeScript is a superset of JavaScript that adds static typing and other features for large-scale web development projects.",
+        "projectType": "web",
+        "experienceLevel": "beginner",
+        "link": "http://www.typescriptlang.org"
+    },
+    {
+        "name": "Lua",
+        "description": "Lua is a lightweight, embeddable scripting language used in game development and other applications.",
+        "projectType": "game",
+        "experienceLevel": "beginner",
+        "link": "http://www.lua.org"
+    },
+    {
+        "name": "Elixir",
+        "description": "Elixir is a functional, concurrent language built on the Erlang VM, known for building highly scalable systems.",
+        "projectType": "web",
+        "experienceLevel": "beginner",
+        "link": "http://elixir-lang.org"
+    },
+    {
+        "name": "Dart",
+        "description": "Dart is a language developed by Google, primarily used for building web and mobile apps with the Flutter framework.",
+        "projectType": "mobile",
+        "experienceLevel": "beginner",
+        "link": "http://www.dartlang.org"
+    },
+    {
+        "name": "R",
+        "description": "R is a language and environment for statistical computing and graphics, commonly used in data analysis and research.",
+        "projectType": "data",
+        "experienceLevel": "beginner",
+        "link": "http://www.r-project.org"
+    },
+    {
+        "name": "Erlang",
+        "description": "Erlang is a concurrent, functional language designed for building highly available and fault-tolerant systems.",
+        "projectType": "system",
+        "experienceLevel": "beginner",
+        "link": "http://www.erlang.org"
+    },
+    {
+        "name": "Perl 6",
+        "description": "Perl 6 is the next major version of Perl, offering enhanced features and expressiveness.",
+        "projectType": "web",
+        "experienceLevel": "beginner",
+        "link": "http://www.perl6.org"
+    },
+    {
+        "name": "COBOL",
+        "description": "COBOL is a language used for business, finance, and administrative systems, known for its longevity.",
+        "projectType": "business",
+        "experienceLevel": "beginner",
+        "link": "http://www.cobol.org"
+    },
+    {
+        "name": "Ada",
+        "description": "Ada is a structured, statically typed language used in safety-critical systems and aerospace applications.",
+        "projectType": "embedded",
+        "experienceLevel": "beginner",
+        "link": "http://www.adaic.org"
+    },
+    {
+        "name": "Prolog",
+        "description": "Prolog is a logic programming language often used for artificial intelligence and expert systems.",
+        "projectType": "AI",
+        "experienceLevel": "beginner",
+        "link": "http://www.swi-prolog.org"
+    },
+    {
+        "name": "Lisp",
+        "description": "Lisp is known for its unique parenthetical syntax and is often used in artificial intelligence and symbolic computing.",
+        "projectType": "AI",
+        "experienceLevel": "beginner",
+        "link": "http://www.lisp-lang.org"
+    },
+    {
+        "name": "COBOL",
+        "description": "COBOL is a language used for business, finance, and administrative systems, known for its longevity.",
+        "projectType": "business",
+        "experienceLevel": "beginner",
+        "link": "http://www.cobol.org"
+    },
+    {
+        "name": "Ada",
+        "description": "Ada is a structured, statically typed language used in safety-critical systems and aerospace applications.",
+        "projectType": "embedded",
+        "experienceLevel": "beginner",
+        "link": "http://www.adaic.org"
+    },
+    {
+        "name": "Prolog",
+        "description": "Prolog is a logic programming language often used for artificial intelligence and expert systems.",
+        "projectType": "AI",
+        "experienceLevel": "beginner",
+        "link": "http://www.swi-prolog.org"
+    },
+    {
+        "name": "Lisp",
+        "description": "Lisp is known for its unique parenthetical syntax and is often used in artificial intelligence and symbolic computing.",
+        "projectType": "AI",
+        "experienceLevel": "beginner",
+        "link": "http://www.lisp-lang.org"
+    }
+]

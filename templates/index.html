@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Programming Language Recommendation System</title>
+
+    <style>
+        body {
+            /* background-image:url('static/back.webp');  */
+            background: url('static/back.jpeg') no-repeat center center fixed;
+            background-size: cover; 
+            backdrop-filter: blur(2px);
+        }
+
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1 >Programming Language Recommendation System</h1>
+    <form id="recommend-form">
+        <!-- Input fields for user criteria -->
+        <label for="experience-level">Experience Level:</label>
+        <select id="experience-level" name="experience-level">
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+        </select>
+        <br><br>
+        
+        <label for "project-type">Project Type:</label>
+        <select id="project-type" name="project-type">
+            <option value="web">Web Development</option>
+            <option value="mobile">Mobile App Development</option>
+            <option value="data">Data Analysis</option>
+            <option value="system">System Programming</option>
+            <option value="game">Game Development</option>
+            <option value="desktop">Desktop Application</option>
+            <option value="business">Business Applications</option>
+            <option value="embedded">Embedded Systems</option>
+        </select>
+        <br><br>
+    
+        <button type="submit">Recommend</button>
+    </form>
+    
+
+    <div id="recommendations">
+        <h2>Recommended Programming Languages:</h2>
+        <ul id="language-list">
+            <!-- Recommended languages will be displayed here -->
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#recommend-form').submit(function (event) {
+                event.preventDefault();
+
+                // Get user input criteria
+                var experienceLevel = $('#experience-level').val();
+                var projectType = $('#project-type').val();
+
+                // Send user criteria to the server for recommendations
+                $.ajax({
+                    type: 'POST',
+                    url: '/recommend',
+                    data: JSON.stringify({
+                        "experience-level": experienceLevel,
+                        "project-type": projectType
+                    }),
+                    contentType: 'application/json',
+                    success: function (data) {
+                        // Display recommended languages
+                        var languageList = $('#language-list');
+                        languageList.empty(); // Clear previous recommendations
+
+                        if (data.length === 0) {
+                            languageList.append('<li>No recommendations found.</li>');
+                        } else {
+                            $.each(data, function (index, language) {
+                                // Add a link from the JSON data
+                                languageList.append('<li>' + language.name + ' - ' + language.description + ' <a href="' + language.link + '" target="_blank">Visit Website</a></li>');
+                            });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
